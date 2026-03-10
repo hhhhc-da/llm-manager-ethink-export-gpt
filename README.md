@@ -24,6 +24,18 @@
 
 ### 使用 OpenAI 接口
 
+修改 `config.yaml` 中的配置
+
+```yaml
+llm:
+  llm-server: remote # 可选项: local, remote
+  chatglm-api: 123456 # 填写成自己的 API 即可
+  prompt: /home/orangepi/Code/Python/llm/cfg/prompt.txt
+  llama-path: /home/orangepi/Code/Python/llm/DeepSeek-R1-Distill-Qwen-1.5B-Q8_0.gguf
+```
+
+需要将后三个进行修改，写成自己的路径 (介于 `oumi` 仅支持 `Linux` 所以就仿照我的写法)
+
 ```bash
 # 配置编译参数（需要编译 llama.cpp）
 export CC=gcc
