@@ -4,7 +4,7 @@
 
 最后呈现出的结果是这样的，右侧 `text` 就是我们模型的输出 (由 ChatGLM-4-Flash 推理)
 
-![image](./image/dify.png)
+![image](./image/dify_update.png)
 
 ### 支持的模型
 
